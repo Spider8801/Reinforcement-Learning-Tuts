@@ -16,7 +16,7 @@ done= False
 
 while not done:
     action = 2
-    new_state, reward, done, _ = env.step(action)
+    new_state, reward, done, _,_ = env.step(action)
     env.render()
 
 env.close()
